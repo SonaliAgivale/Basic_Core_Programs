@@ -39,6 +39,25 @@ namespace BasicCoreProgramms
             Console.WriteLine("Head count: " + headCount + " Head Percent: " + headPercent);
             Console.WriteLine("Tail count: " + tailCount + " Tail Percent: " + tailPercent);
         }
+
+        //Leap Year
+        public void IsLeapYear()
+        {
+            int year;
+            Console.WriteLine("******** Leap Year *********");
+            Console.WriteLine("Enter the year");
+            year = Convert.ToInt32(Console.ReadLine());
+
+            if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+            {
+                Console.WriteLine("{0} Year is Leap year:", year);
+            }
+            else
+            {
+                Console.WriteLine("{0} Not leap year:", year);
+            }
+
+        }
     }
 }
 
