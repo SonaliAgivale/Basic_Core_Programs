@@ -160,6 +160,23 @@ namespace BasicCoreProgramms
             Console.WriteLine("The value of num1 is: " + num1);
             Console.WriteLine("The value of num1 is: " + num2);
         }
+
+        //C# Program to Check Whether a Number is Even or Odd
+        public void checkEvenOdd()
+        {
+            Console.WriteLine("******** Even or Odd Number ********");
+            Console.WriteLine("Enter the number");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+
+            if (num1 % 2 == 0)
+            {
+                Console.WriteLine("Entered number is Even");
+            }
+            else
+            {
+                Console.WriteLine("Entered number is odd");
+            }
+        }
     }
 }
 
