@@ -177,6 +177,25 @@ namespace BasicCoreProgramms
                 Console.WriteLine("Entered number is odd");
             }
         }
+
+        //C# Program to Check Whether an Alphabet is Vowel or Consonant
+        public void checkVowel()
+        {
+            char ch;
+            Console.WriteLine("******* Vowel or Consonant **********");
+            Console.WriteLine("Enter any character: ");
+            ch = Convert.ToChar(Console.ReadLine());
+            // Condition for vowel checking
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+            {
+                Console.WriteLine(ch + " is Vowel.");
+            }
+            else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+            {
+                Console.WriteLine(ch + " is Consonant.");
+            }
+        }
+
     }
 }
 
