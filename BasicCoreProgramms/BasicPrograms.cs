@@ -97,6 +97,34 @@ namespace BasicCoreProgramms
             Console.WriteLine("Harmonic no of " + n + ": " + harmonic);
         }
 
+        //Calulating Factors
+        public static void Factors()
+        {
+            Console.WriteLine("******** Factors *********");
+            Console.WriteLine("Enter the value of n:");
+            int n = Convert.ToInt32(Console.ReadLine());
+            bool prime = true;
+            Console.WriteLine("The prime factors are: ");
+            for (int i = 2; i * i <= n; i++)
+            {
+                if (n % i == 0)
+                {
+                    prime = true;
+                    for (int j = 2; j <= i / 2; j++)
+                    {
+                        if (i % j == 0)
+                        {
+                            prime = false;
+                            break;
+                        }
+                    }
+                    if (prime is true)
+                        Console.Write(i + " ");
+                }
+            }
+            Console.WriteLine();
+        }
+
     }
 }
 

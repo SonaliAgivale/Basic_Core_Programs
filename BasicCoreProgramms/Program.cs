@@ -11,7 +11,7 @@ namespace BasicCoreProgramms
         static void Main(string[] args)
         {
             //static method so no need to create object
-            BasicPrograms.HarmonicNo();  
+            BasicPrograms.Factors();  
             Console.ReadKey();
         }
     }
