@@ -140,7 +140,25 @@ namespace BasicCoreProgramms
             Console.WriteLine("-----------Answer-----------");
             Console.WriteLine("The Quotient: " + quotient);
             Console.WriteLine("The Remainder are: " + reminder);
+        }
 
+        //C# Program to Swap Two Numbers
+        public void SwapNo()
+        {
+            int num1 = 2;
+            int num2 = 1;
+            int temp = 0;
+            Console.WriteLine("******** Swap Two Numbers *********");
+            Console.WriteLine();
+            Console.WriteLine("--------Before Swapping----------");
+            Console.WriteLine("The value of num1 is: " + num1);
+            Console.WriteLine("The value of num2 is: " + num2);
+            temp = num1;
+            num1 = num2;
+            num2 = temp;
+            Console.WriteLine("---------After Swapping--------");
+            Console.WriteLine("The value of num1 is: " + num1);
+            Console.WriteLine("The value of num1 is: " + num2);
         }
     }
 }

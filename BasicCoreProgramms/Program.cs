@@ -11,7 +11,7 @@ namespace BasicCoreProgramms
         static void Main(string[] args)
         {
             BasicPrograms basicPrgm=new BasicPrograms();
-            basicPrgm.division(); 
+            basicPrgm.SwapNo(); 
             Console.ReadKey();
         }
     }
