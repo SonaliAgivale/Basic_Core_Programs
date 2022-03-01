@@ -10,8 +10,8 @@ namespace BasicCoreProgramms
     {
         static void Main(string[] args)
         {
-            BasicPrograms basicPrgm=new BasicPrograms();
-            basicPrgm.isPowerOfTwo();   
+            //static method so no need to create object
+            BasicPrograms.HarmonicNo();  
             Console.ReadKey();
         }
     }

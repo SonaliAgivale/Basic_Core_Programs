@@ -84,6 +84,18 @@ namespace BasicCoreProgramms
                     Console.WriteLine("It is not a power of 2");
             }
         }
+        //Harmonic No
+       public static void HarmonicNo()
+        {
+            float harmonic = 0;
+            Console.WriteLine("******** Harmonic Number **********");
+
+            Console.WriteLine("Enter the number");
+            int n = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= n; i++)
+                harmonic += (float)1 / (float)i;
+            Console.WriteLine("Harmonic no of " + n + ": " + harmonic);
+        }
 
     }
 }
