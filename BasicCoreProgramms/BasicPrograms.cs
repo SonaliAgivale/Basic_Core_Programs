@@ -125,6 +125,23 @@ namespace BasicCoreProgramms
             Console.WriteLine();
         }
 
+        //C# Program to Compute Quotient and Remainder
+
+        public void division()
+        {
+            //Taking input from user
+            Console.WriteLine("******** Quotient and Remainder *********");
+            Console.WriteLine("Enter the value of divident");
+            int dividend = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the value of divisor");
+            int divisor = Convert.ToInt32(Console.ReadLine());
+            int quotient = (dividend / divisor);
+            int reminder = (dividend % divisor);
+            Console.WriteLine("-----------Answer-----------");
+            Console.WriteLine("The Quotient: " + quotient);
+            Console.WriteLine("The Remainder are: " + reminder);
+
+        }
     }
 }
 

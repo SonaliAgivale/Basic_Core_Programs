@@ -10,8 +10,8 @@ namespace BasicCoreProgramms
     {
         static void Main(string[] args)
         {
-            //static method so no need to create object
-            BasicPrograms.Factors();  
+            BasicPrograms basicPrgm=new BasicPrograms();
+            basicPrgm.division(); 
             Console.ReadKey();
         }
     }
